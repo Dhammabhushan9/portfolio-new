@@ -1,30 +1,83 @@
-.TechHero-container{
-   
+ 
 
+.Stack-container {
+    margin-top: 4vh; /* Lowercase 'vh' */
+    height: 50vh;
+    width: 20vw;  
+    border-radius: 1.5vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-.Stack-container{
-        margin-top: 4VH;
-
-        height: 50vh;
-        width: 20vw;  
-        border-radius: 1.5vh;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.tech-stack {
+    padding: 1vw;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    line-height: 0.7; /* Adjust line height to reduce line spacing */
 }
 
-.Tools-container{
-    margin-top: 3VH;
+.btn{
+    margin: 0.5vh;
+    background-color: white;
+    border: 0.07vw solid rgb(208, 199, 199);
+    border-radius: 0.7vh;
+    color: black;
+    padding: 0.5vh;
+    cursor: pointer;
+}
 
+.btn:hover{
+    border: 0.07vw solid rgb(89, 83, 83);
+}
+
+.Tools-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh; /* Lowercase 'vh' */
     height: 10vh;
     width: 20vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 1.5vh;
 }
 
-.Certification-container{
-    margin-top: 2vh;
+ 
+.tools {
+    display: flex;
+    gap: 1rem; /* Space between tool items */
+}
 
+.tool-item{
+        background-color: black;
+        border-radius: 1.5vb;
+        padding: 0.3vw;
+}
+
+.tool-item img {
+    width: 50px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+   
+    
+}
+.tool-item-gpt{
+    background-color: black;
+    border-radius: 1.5vb;
+        padding: 0.3vw;
+}
+.tool-item-gpt img{
+    filter: invert(1);
+   
+    width: 50px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+   
+}
+
+ 
+
+
+
+
+.Certification-container {
+    margin-top: 2vh; /* Lowercase 'vh' */
     height: 25vh;
     width: 20vw;
     border-radius: 1.5vh;
