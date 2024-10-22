@@ -1,0 +1,32 @@
+.TechHero-container{
+   
+
+}
+
+
+.Stack-container{
+        margin-top: 4VH;
+
+        height: 50vh;
+        width: 20vw;  
+        border-radius: 1.5vh;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Tools-container{
+    margin-top: 3VH;
+
+    height: 10vh;
+    width: 20vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1.5vh;
+}
+
+.Certification-container{
+    margin-top: 2vh;
+
+    height: 25vh;
+    width: 20vw;
+    border-radius: 1.5vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

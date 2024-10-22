@@ -1,0 +1,45 @@
+
+.About-container{
+    margin-top: 4vh;
+
+    height:91vh;
+    width: 25vw;
+    border-radius: 1.5vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.About-pic{
+
+    margin: 5vh auto;
+    height: 12vw;
+    width: 12vw;
+    border-radius: 25vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.Summary-container{
+    margin-top: 5vh;
+    margin-left: 2.5vw;
+
+    height: 25vh;
+    width: 20vw;
+   
+    border-radius: 1.5vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.Contact-container{
+    margin-top: 3vh;
+    margin-left: 2.5vw;
+
+    height: 25vh;
+    width: 20vw;
+   
+    border-radius: 1.5vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

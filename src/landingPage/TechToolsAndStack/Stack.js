@@ -1,9 +1,12 @@
 import React from 'react';
+import './tech.css'
+
 
 function Stack() {
     return ( 
+            <div className='Stack-container'>
 
-        <h1>tech stack</h1>
+            </div>
      );
 }
 

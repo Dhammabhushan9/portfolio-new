@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './About.css'
+
 function Summary() {
     return ( 
-        <h1>Summary</h1>
+        <div className='Summary-container'>  </div>
      );
 }
 

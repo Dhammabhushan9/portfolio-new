@@ -3,7 +3,7 @@ import React from 'react';
 function Tools() {
     return ( 
 
-        <h1>Tools</h1>
+       <div className='Tools-container'></div>
      );
 }
 

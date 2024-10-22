@@ -5,7 +5,7 @@ import React from 'react';
 function Certification() {
     return ( 
 
-        <h1>Certification</h1>
+        <div className='Certification-container'></div>
       );
 }
 

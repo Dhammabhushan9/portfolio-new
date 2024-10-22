@@ -1,8 +1,17 @@
 import React from 'react';
 
+import './Hero.css'
+
+//importing other fils
+import Project from './Project'
+import Experience from './Experience'
+
 function Hero() {
     return ( 
-        <h1>hero</h1>
+         <div className='Hero-container'>
+                <Project/>
+                <Experience/>
+         </div>
      );
 }
 

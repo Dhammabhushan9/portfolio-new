@@ -1,1 +1,7 @@
 
+.App{
+    margin-right: 15vw;
+    margin-left: 15vw;
+    display: flex ;
+    justify-content: space-between;
+}
