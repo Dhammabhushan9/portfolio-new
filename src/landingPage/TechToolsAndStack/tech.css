@@ -1,6 +1,7 @@
  
 
 .Stack-container {
+    background-color: white;
     margin-top: 4vh; /* Lowercase 'vh' */
     height: 50vh;
     width: 20vw;  
@@ -9,6 +10,7 @@
 }
 
 .tech-stack {
+    
     padding: 1vw;
     font-family: sans-serif;
     font-size: 1.5vw;
@@ -23,13 +25,36 @@
     color: black;
     padding: 0.5vh;
     cursor: pointer;
+    display: inline;
+    font-size:0.8vw;
 }
-
+.frontend-section  {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .btn:hover{
     border: 0.07vw solid rgb(89, 83, 83);
 }
 
+
+.frontend-section Database-section Backend-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
 .Tools-container {
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +62,8 @@
     height: 10vh;
     width: 20vw;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 1.5vh;
+    border-radius: 5vh;
+    padding: 0.3vh;
 }
 
  
@@ -53,20 +79,20 @@
 }
 
 .tool-item img {
-    width: 50px; /* Set a fixed width */
+    width: 3vw; /* Set width based on 5% of viewport width */
     height: auto; /* Maintain aspect ratio */
-   
-    
+    margin-top: vh; /* Set margin top to 1% of viewport height */
 }
+
 .tool-item-gpt{
     background-color: black;
     border-radius: 1.5vb;
-        padding: 0.3vw;
+     padding: 0.3vw;
 }
 .tool-item-gpt img{
     filter: invert(1);
-   
-    width: 50px; /* Set a fixed width */
+    
+    width: 3vw; /* Set a fixed width */
     height: auto; /* Maintain aspect ratio */
    
 }
@@ -77,6 +103,7 @@
 
 
 .Certification-container {
+    background-color: white;
     margin-top: 2vh; /* Lowercase 'vh' */
     height: 25vh;
     width: 20vw;

@@ -1,10 +1,12 @@
 import React from 'react';
-
+import { motion } from 'framer-motion';
 import './About.css'
 
 function Summary() {
     return ( 
-        <div className='Summary-container'>  </div>
+        <motion.div 
+         
+        className='Summary-container'>  </motion.div>
      );
 }
 

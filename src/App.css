@@ -1,7 +1,15 @@
 
 .App{
-    margin-right: 15vw;
-    margin-left: 15vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 15vh;
     display: flex ;
     justify-content: space-between;
+   /* background-image: url('C:\Users\CTPL\Desktop\bhushan full\myport\public\bg.jpg');
+    background-size: cover; /* Optional: ensures the image covers the entire element */
+    background-position: center; /* Optional: centers the image */
+}
+html, body {
+    margin: 0; /* Remove default margin */
+    height: 100%; /* Make sure body takes full height */
 }

@@ -16,24 +16,26 @@ function Stack() {
             <div className='tech-stack'>
                 <h2>TECH STACK</h2>
 
+
+                <p>Frontend:</p>
                 <div className='frontend-section'>
-                    <p>Frontend:</p>
-                    <button className='btn'>React</button>
-                    <button className='btn'>Framer Motion</button>
-                    <button className='btn'>HTML</button>
-                    <button className='btn'>Bootstrap</button>
+                    
+                    <div className='btn'>React</div>
+                    <div className='btn'>Framer Motion</div>
+                    <div className='btn'>HTML</div>
+                    <div className='btn'>Bootstrap</div>
                 </div>
 
                 <div className='Database-section'>
                     <p>Database:</p>
-                    <button className='btn'>MySQL</button>
-                    <button className='btn'>MongoDB</button>
+                    <div className='btn'>MySQL</div>
+                    <div className='btn'>MongoDB</div>
                 </div>
 
                 <div className='Backend-section'>
                     <p>Backend:</p>
-                    <button className='btn'>Express</button>
-                    <button className='btn'>Node.js</button>
+                    <div className='btn'>Express</div>
+                    <div className='btn'>Node.js</div>
                 </div>
             </div>
         </motion.div>

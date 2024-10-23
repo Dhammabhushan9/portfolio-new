@@ -2,19 +2,41 @@
 
 .Project-container{
     margin-top: 4vh;
-
+    background-color: white;
     height: 44vh;
     width: 20vw;
- 
+    
     border-radius: 1.5vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
+.Project-container img{
+    height: 44vh;
+    width: 20vw;
+ 
+    border-radius: 1.5vh;
+}
+
+
+.overlay-text {
+    position: absolute;
+    top: 10%; /* Adjusts the position of the text */
+    left: 50%;
+    transform: translate(-50%, -10%); /* Center the text horizontally */
+    color: rgb(245, 239, 239);
+    font-size: 3vw;
+    font-family: sans-serif;
+    
+   
+    pointer-events: none; /* Ensures text doesn't interfere with video interaction */
+}
+
+
 
 .Experience-container{
     margin-top: 4vh;
-
+    background-color: white;
     height: 43vh;
     width: 20vw;
   
@@ -22,3 +44,5 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+
+ 
