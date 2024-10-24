@@ -9,7 +9,7 @@ function Experience () {
          dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
             initial={{x:200,opacity:0}}
             animate={{x:0,opacity:1}}
-            transition={{duration:0.5,delay:0.7}}
+            transition={{duration:0.5,delay:0.5}}
          className='Experience-container'>
             
          </motion.div>

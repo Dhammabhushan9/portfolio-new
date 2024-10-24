@@ -5,9 +5,10 @@
     padding-bottom: 15vh;
     display: flex ;
     justify-content: space-between;
+
    /* background-image: url('C:\Users\CTPL\Desktop\bhushan full\myport\public\bg.jpg');
     background-size: cover; /* Optional: ensures the image covers the entire element */
-    background-position: center; /* Optional: centers the image */
+  /*  background-position: center; /* Optional: centers the image */
 }
 html, body {
     margin: 0; /* Remove default margin */
