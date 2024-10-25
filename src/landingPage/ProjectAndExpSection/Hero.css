@@ -45,4 +45,34 @@
 
 }
 
+.project {
+    padding-top: 12vh;
+    overflow: hidden; /* Hide overflow to keep the container clean */
+  }
+  
+  .outer-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    padding: 10px; /* Optional padding */
+  }
+  
+  .outer-card {
+    padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    border-radius: 4rem;
+    border: 1px solid black;
+    margin-right: 2rem; /* Add spacing between cards */
+  }
+  
+  .card {
+    height: 45vh;
+    width: 20vw;
+    border-radius: 1.5vw;
+    display: flex; /* Center the text vertically and horizontally */
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Optional background color for visibility */
+  }
+  
+  
  

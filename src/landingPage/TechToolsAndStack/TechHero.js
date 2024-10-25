@@ -5,7 +5,7 @@ import './tech.css'
 import Stack from './Stack';
 import Tools from './Tools';
 import Certification from './Certification';
-import { div } from 'framer-motion/client';
+import { Link } from 'react-router-dom';
 
 function TechHero() {
     return ( 
@@ -14,7 +14,7 @@ function TechHero() {
 
               <Stack/>
               <Tools/>
-                <Certification/>
+         <Link to='/certification'><Certification/></Link>
 
           </div>
         

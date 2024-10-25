@@ -5,12 +5,16 @@ import './Hero.css'
 //importing other fils
 import Project from './Project'
 import Experience from './Experience'
+import { Link } from 'react-router-dom';
+
+
 
 function Hero() {
     return ( 
+        
          <div className='Hero-container'>
-                <Project/>
-                <Experience/>
+               <Link to='/project'> <Project/></Link>
+              <Link to='/experience' ><Experience/></Link> 
          </div>
      );
 }
