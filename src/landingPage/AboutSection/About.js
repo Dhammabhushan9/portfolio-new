@@ -19,7 +19,7 @@ function About() {
             className='About-container'>
 
                 <div className='About-pic'>
-                  <img src="/p2.png" alt="profile pic" />
+                  <img src=" " alt="profile pic" />
                 </div>
                 <Summary/>
                 <Contact/>
