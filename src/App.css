@@ -16,14 +16,27 @@ html, body {
 }
 
 
+/* App.css */
+.home-container {
+  display: flex;
+  flex-direction: row; /* Default direction for larger screens */
+  
+}
 
-@media (max-width:500px) {
-  .App{
-    
-     flex-direction: column;
-      flex-grow: initial;
- 
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column; /* Stack vertically on smaller screens */
   }
 
+  .about {
+    order: 1; /* Show About section first */
+  }
 
+  .tools {
+    order: 2; /* Show Tools section second */
+  }
+
+  .project-and-exp {
+    order: 3; /* Show Project and Experience section last */
+  }
 }
