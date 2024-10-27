@@ -1,46 +1,46 @@
- 
-
 .Stack-container {
     background-color: white;
-    margin-top: 4vh; /* Lowercase 'vh' */
+    margin-top: 4vh;
     height: 50vh;
     width: 20vw;  
     border-radius: 1.5vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+    padding: 1vh; /* Added padding */
+    background: linear-gradient(217deg, rgba(196, 184, 125, 0.908), rgba(255, 255, 255, 0) 70.71%),
+                linear-gradient(127deg, rgba(245, 230, 240, 0.884), rgba(173, 216, 230, 0) 70.71%),
+                linear-gradient(336deg, rgba(172, 135, 135, 0.907), rgba(135, 206, 250, 0) 70.71%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;}
 
 .tech-stack {
-    
-    padding: 1vw;
     font-family: sans-serif;
     font-size: 1.5vw;
-    
+  
 }
 
-.btn{
+.btn {
     margin: 0.5vh;
-    background-color: white;
+     
     border: 0.07vw solid rgb(208, 199, 199);
-    border-radius: 0.7vh;
-    color: black;
+    border-radius: 0.5vw;
+    color: rgb(246, 244, 244);
     padding: 0.5vh;
     cursor: pointer;
-    display: inline;
-    font-size:0.8vw;
-}
-.frontend-section  {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.btn:hover{
-    border: 0.07vw solid rgb(89, 83, 83);
+    display: inline-block; /* Changed to inline-block for better spacing */
+    font-size: 0.8vw;
+    color: black;
+     
+    transition: border-color 0.3s; /* Smooth transition for hover */
+    box-shadow: 1px 5px 10px rgb(39, 38, 38)
 }
 
+.btn:hover {
+ box-shadow: 10px 10px 20px rgba(0, 0, 0, 1)
+}
 
-.frontend-section Database-section Backend-section{
+.frontend-section, .Database-section, .Backend-section {
     display: flex;
-    justify-content: space-around;
+     
     flex-wrap: wrap;
 }
 
