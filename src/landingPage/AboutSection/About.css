@@ -90,3 +90,105 @@
     flex-wrap: wrap;
     
 }
+
+
+
+/*------About section media------*/
+
+@media (max-width:500px){
+    
+.About-container{ 
+    
+     
+    width: 60vw;
+ 
+ 
+   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/}
+
+
+.About-pic{
+
+    margin-left: 15vw;
+ 
+    height: 50vw;
+   
+    
+
+}
+.About-pic img{
+  
+    height:50vw;
+ 
+   
+   
+
+}
+
+}
+
+
+/*-----summary media --------*/
+
+@media (max-width:500px) {
+
+    
+.Summary-container{
+  
+    margin-left: 7vw;
+     
+    height: 17vh;
+    width: 60vw;
+   
+}
+
+.s-start{
+    padding-top: 2vh;
+    font-weight: 600;
+    
+}
+
+ .s-name{
+    font-size: 4vw;
+    
+    
+    font-weight: 600;
+ }
+ .s-work{
+    font-size: 3vw; 
+    
+ }
+}
+
+
+/*-------contact media---------*/
+
+
+@media (max-width:500px){
+    
+.Contact-container{
+    margin-top: 3vh;
+    margin-left: 7vw;
+
+    height: 25vh;
+    width: 60vw;
+   
+    border-radius: 10vw;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+ 
+
+.icons img{
+    margin-top:   1vh;
+    width: 10vw; /* Set width based on 5% of viewport width */
+    height: 10vw; /* Maintain aspect ratio */
+    padding: 1vh;
+    
+    border-radius: 4vw;
+   /* Set margin top to 1% of viewport height */
+  
+}
+
+}

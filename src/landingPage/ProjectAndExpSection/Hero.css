@@ -155,3 +155,63 @@
 
  }
  
+ /*--------project--------*/
+
+ @media (max-width:500px){
+
+
+  .Project-container{
+    margin-left: 5vw;
+ 
+    margin-top: 4vh;
+    background-color: white;
+    height: 44vh;
+    width: 50vw;
+    
+    
+    border-radius: 1.5vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.Project-container img{
+    height: 44vh;
+    width: 60vw;
+    object-fit: cover;
+    border-radius: 1.5vh;
+}
+
+
+.overlay-text {
+    position: absolute;
+    top: 10%; /* Adjusts the position of the text */
+    left: 60%;
+    transform: translate(-50%, -10%); /* Center the text horizontally */
+    color: rgb(243, 242, 237);
+    font-size: 5vw;
+     
+    
+    
+    pointer-events: none; /* Ensures text doesn't interfere with video interaction */
+}
+
+
+ }
+
+/*------experiment----------*/
+ @media (max-width:500px){
+  
+
+.Experience-container {
+  margin-left: 5vw;
+ 
+  height: 43vh;
+  width: 60vw;
+  
+   
+   
+} 
+
+ 
+
+ }

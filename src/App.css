@@ -14,3 +14,16 @@ html, body {
     margin: 0; /* Remove default margin */
     height: 100%; /* Make sure body takes full height */
 }
+
+
+
+@media (max-width:500px) {
+  .App{
+    
+     flex-direction: column;
+      flex-grow: initial;
+ 
+  }
+
+
+}
