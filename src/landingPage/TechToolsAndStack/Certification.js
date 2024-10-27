@@ -16,8 +16,8 @@ function Certification() {
                 transition: { duration: 0.3 }
             }}
         className='Certification-container'>
-             <img  src="/card.svg" alt="" />
-             <div className="overlay-text">Experience</div>
+             <img  src="/certification1.jpeg" alt="certification" />
+             <div className="overlay-text">CERTIFICATION</div>
         </motion.div>
       );
 }

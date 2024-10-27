@@ -6,6 +6,7 @@
     height: 44vh;
     width: 20vw;
     
+    
     border-radius: 1.5vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -121,3 +122,36 @@
   align-items: center;
   justify-content: space-around;
  }
+
+
+ /*------------------- Experience_section*/
+ 
+.outer-exp-section{
+  margin-top: 6vh;
+}
+
+
+ .Experience_section-container{
+  margin-top: 5vh;
+  
+ display: flex;
+ justify-content: center;
+ justify-content: space-evenly;  
+  
+ }
+
+
+
+ /*card*/
+ 
+ .Experience_section-container .exp-card-left{
+  height: 50vh;
+  width: 20vw;
+  background-color:#ecdfdc;
+   margin-left: 2vw;
+  margin-bottom: 3vh;
+  padding: 1em;
+  border-radius: 2em;
+
+ }
+ 
