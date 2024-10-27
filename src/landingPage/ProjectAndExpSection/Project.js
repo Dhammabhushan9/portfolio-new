@@ -22,7 +22,7 @@ function Project() {
            transition={{duration:0.5,delay:0.5}}
            
         className='Project-container'> 
-            <img  src="/PROJECT-WATER.gif" alt="" />
+            <img  src="/project2.png" alt="" />
             <div className="overlay-text">PROJECTS</div>
         </motion.div>
      );

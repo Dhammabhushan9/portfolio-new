@@ -13,17 +13,18 @@
 .About-pic{
 
     margin: 5vh auto;
+    margin-bottom: 10vh;
     height: 12vw;
     width: 12vw;
-    border-radius: 25vw;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 
 }
 .About-pic img{
   
-    height: 12vw;
-    width: 12vw;
-    border-radius: 50vw;
+    height: 15vw;
+    width: auto;
+    border-radius: 25vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -38,8 +39,7 @@
     text-align: center;
     border-radius: 7vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-border: 1px solid rgb(202, 158, 158);
+    background-color: rgb(229, 236, 204);
 }
 
 .s-start{
