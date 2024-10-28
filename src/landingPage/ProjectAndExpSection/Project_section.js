@@ -52,7 +52,7 @@ function ProjectSection() {
               <button className='btn-project'>GITHUB</button>
             </a>
             <a href="https://trading-platform-dashboard.vercel.app/" target="_blank" rel="noopener noreferrer">
-              <button className='btn-project'>LIVE DEMO</button>
+              <button className='btn-project'>DEMO</button>
             </a>
           </div>
         </motion.div>
@@ -67,7 +67,7 @@ function ProjectSection() {
               <button className='btn-project'>GITHUB</button>
             </a>
             <a href="https://hotel-finding-demo.com" target="_blank" rel="noopener noreferrer">
-              <button className='btn-project'>LIVE DEMO</button>
+              <button className='btn-project'>DEMO</button>
             </a>
           </div>
         </div>
@@ -82,7 +82,7 @@ function ProjectSection() {
               <button className='btn-project'>GITHUB</button>
             </a>
             <a href="https://portfolio-dhammabhushan9s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">
-              <button className='btn-project'>LIVE DEMO</button>
+              <button className='btn-project'> DEMO</button>
             </a>
           </div>
         </div>

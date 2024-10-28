@@ -204,14 +204,125 @@
 
 .Experience-container {
   margin-left: 5vw;
- 
   height: 43vh;
   width: 60vw;
-  
-   
    
 } 
+ }
+
+
+
+ /*--------PROJECT SECTION MEDIA-----------------*/
+
+ @media (max-width:500px){
+  
+.project {
+  padding-top: 12vh;
+  padding-left: 1vw;
+  padding-right: 1vw; 
+  margin-left:1vw ;
+  margin-right: 1vw;
+  overflow: hidden; /* Hide overflow to keep the container clean */
+}
+
+.outer-container {
+  display: flex; /* Use flexbox for horizontal layout */
+    /* Optional padding */
+}
+
+.outer-card {
+  padding: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  margin-left: 1vw;
+  border-radius: 4rem;
+ 
+   
+   }
+
+.card {
+  height: 30vh;
+  width: 30vw;
+  border-radius: 2vw;
+ 
+ 
+ 
+}
+
+
+.card img{
+  margin-left: 15VW;
+  width: 50VW;
+  height: 30vh;
+  border-radius: 5vw;
+ 
+}
+
+.btn-back  {
+ 
+
+  padding: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border-radius: 1.5rem;
+   
+ 
+  margin-left: 25vw;
+  margin-bottom: 3vh;
+ 
+}
+
+.btn-project{
+margin-top:6vh;
+padding: 1rem;
+padding-left: 2rem;
+padding-right: 2rem;
 
  
+border-radius: 5vw;
+margin-left: 1vw; 
+ 
+}
+
+ 
+
+
+ }
+
+
+ /*--------------------experoment section--------------------*/
+
+
+ @media (max-width:500px){
+
+
+
+  .outer-exp-section{
+    margin-top: 6vh;
+  }
+  
+  
+   .Experience_section-container{
+    margin-top: 5vh;
+     
+   flex-direction: column;
+   
+    
+    
+   }
+  
+  
+  
+   /*card*/
+   
+   .Experience_section-container .exp-card-left{
+   
+    width: 70vw; 
+     margin-left: 1vw;
+    margin-bottom: 3vh;
+   
+  
+   }
+   
 
  }
